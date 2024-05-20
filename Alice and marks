@@ -1,0 +1,10 @@
+def is_alice_happy(X, Y):
+    if X >= 2 * Y:
+        return "Yes"
+    else:
+        return "No"
+
+X, Y = map(int, input().split())
+
+print(is_alice_happy(X, Y))
+
