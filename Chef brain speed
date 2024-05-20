@@ -1,0 +1,9 @@
+def prone_to_errors(X, Y):
+    if Y > X:
+        return "YES"
+    else:
+        return "NO"
+
+X, Y = map(int, input().split())
+
+print(prone_to_errors(X, Y))
