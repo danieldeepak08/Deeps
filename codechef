@@ -1,0 +1,4 @@
+def total_courses(N):
+    return 2 * N
+N = int(input())
+print(total_courses(N))
